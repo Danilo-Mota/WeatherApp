@@ -5,7 +5,9 @@ ApiKey = aa880d47d52e41ff8a90a63d9660f708
 
 Imports:
  //Retrofit
+ 
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     
 buildscript {
@@ -14,8 +16,11 @@ buildscript {
     } 
     
  //Data Binding
+ 
 dataBinding {
       enabled true
   }
   
  id 'kotlin-kapt'
+ 
+ Link api: https://www.weatherbit.io/api/weather-current
