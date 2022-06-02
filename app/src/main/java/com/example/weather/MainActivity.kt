@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
                     binding.cidade.text = result.cidade
                     binding.temperatura.text = result.temperatura
                     binding.nuvens.text = result.nuvens
+                    binding.porDoSol.text = result.porDoSol
+                    binding.nascerDoSol.text = result.nascerDoSol
+                    binding.humidade.text = result.humidade
                 }
             }
 
